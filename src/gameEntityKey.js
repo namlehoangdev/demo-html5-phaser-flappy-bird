@@ -1,6 +1,9 @@
 export const GameEntityKey = {
   BIRD: "BIRD",
   BACKGROUND: "BACKGROUND",
+  GROUND: "GROUND",
+  TILE_MAP: "TILE_MAP",
+  JUMP_GROUND: "Ground",
 };
 
 export const GameAnimationKey = {
@@ -10,5 +13,5 @@ export const GameAnimationKey = {
   },
 };
 
-export const GAME_WIDTH = 375 * 2;
-export const GAME_HEIGHT = 600 * 2;
+export const GAME_WIDTH = 657;
+export const GAME_HEIGHT = 1159;
